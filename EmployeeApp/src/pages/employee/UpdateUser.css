@@ -1,0 +1,32 @@
+.center-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    padding: 40px 20px;
+    background-color: #d1d6dc;
+}
+.center-form Form {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background: rgb(143, 190, 209);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.center-form h1 {
+    margin-bottom: 40px;
+    color: #090808;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: rgb(143, 190, 209);
+}
+
+.center-form .form-control {
+    margin-bottom: 15px;
+    padding: 10px;
+}
